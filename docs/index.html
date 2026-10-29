@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#082f52">
+  <meta name="description" content="Bridgearch - Integrated consulting, managed services and fintech solutions.">
+  <title>Bridgearch | Strategy, technology & payments</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Bridgearch home"><span class="brand-mark">◇</span><span>BRIDGEARCH</span></a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">Menu <span>+</span></button>
+    <nav aria-label="Main navigation"><a href="#capabilities">Capabilities</a><a href="#about">About</a><a href="#approach">Our approach</a><a class="nav-contact" href="#contact">Contact</a></nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Consulting <i></i> Technology <i></i> Fintech</p>
+        <h1>Empowering organisations through <em>strategy, technology</em> &amp; payments.</h1>
+        <span class="rule"></span>
+        <p class="intro">One connected offering for growth, resilience and transformation.</p>
+        <a class="button" href="#contact">Start a conversation <span>↗</span></a>
+      </div>
+      <div class="hero-art" role="img" aria-label="A team collaborating around a table">
+        <div class="orb orb-one"></div><div class="orb orb-two"></div><div class="grid-lines"></div>
+        <div class="art-copy"><span>01 / 03</span><strong>ONE ACCOUNTABLE<br>PARTNER</strong></div>
+      </div>
+    </section>
+
+    <section class="statement" id="about">
+      <p class="eyebrow">A multi-capability partner</p>
+      <h2>We bring advisory insight, operational accountability and fintech execution into one focused partnership.</h2>
+      <div class="statement-grid"><p>Bridgearch is a majority black-owned and female-led company helping organisations navigate complexity, modernise operations and unlock value through technology and payments.</p><p>Established in 2016, we have evolved from specialist consulting into a future-ready professional services firm with delivery at its core.</p></div>
+    </section>
+
+    <section class="capabilities" id="capabilities">
+      <div class="section-label"><span>Our capabilities</span><span>01 - 03</span></div>
+      <article class="capability"><span class="number">01</span><div><p class="eyebrow">Management consulting</p><h3>Strategy that moves business forward.</h3><p>Strategic advisory, performance improvement, change management and digital transformation.</p></div><span class="arrow">↗</span></article>
+      <article class="capability"><span class="number">02</span><div><p class="eyebrow">Managed services</p><h3>Technology that keeps delivering.</h3><p>Cloud and infrastructure, DevSecOps, AI operations, monitoring, security and governance.</p></div><span class="arrow">↗</span></article>
+      <article class="capability"><span class="number">03</span><div><p class="eyebrow">Fintech &amp; payments</p><h3>Payments built for possibility.</h3><p>Payment solutions, API integrations, banking rails and ERP-to-bank connectivity.</p></div><span class="arrow">↗</span></article>
+    </section>
+
+    <section class="approach" id="approach">
+      <div class="approach-copy"><p class="eyebrow">The Bridgearch way</p><h2>From challenge to change, with the same team beside you.</h2><p>We connect each stage of delivery so strategy becomes an operating reality - and keeps improving.</p></div>
+      <ol class="journey"><li><span>01</span><strong>Assess</strong><small>Understand</small></li><li><span>02</span><strong>Design</strong><small>Architect</small></li><li><span>03</span><strong>Implement</strong><small>Build &amp; integrate</small></li><li><span>04</span><strong>Operate</strong><small>Run &amp; secure</small></li><li><span>05</span><strong>Optimise</strong><small>Measure &amp; grow</small></li></ol>
+    </section>
+
+    <section class="advantage">
+      <p class="eyebrow">Why Bridgearch</p><h2>Progress needs more than a provider. It needs a partner.</h2>
+      <div class="advantage-grid"><div><b>01</b><h3>Integrated offering</h3><p>Consulting, technology and payments under one partner.</p></div><div><b>02</b><h3>Expert teams</h3><p>Deep domain expertise with real-world execution.</p></div><div><b>03</b><h3>Agile delivery</h3><p>Flexible, responsive and outcome-driven.</p></div><div><b>04</b><h3>Security &amp; compliance</h3><p>Robust governance, risk management and readiness.</p></div></div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div><p class="eyebrow">Let’s build what’s next</p><h2>Ready for a more connected future?</h2><a class="button light" href="mailto:info@bridgearch.co.za">Talk to Bridgearch <span>↗</span></a></div>
+      <address><a href="mailto:info@bridgearch.co.za">info@bridgearch.co.za</a><a href="tel:+27111234567">+27 11 123 4567</a><p>4 Pieter Wenning Road<br>Fourways, 2191<br>Johannesburg, South Africa</p></address>
+    </section>
+  </main>
+  <footer><span>© Bridgearch (Pty) Ltd</span><span>Strategy · Technology · Payments</span><span>Johannesburg, South Africa</span></footer>
+  <script>const b=document.querySelector('.menu-toggle'),n=document.querySelector('nav');b.addEventListener('click',()=>{const o=b.getAttribute('aria-expanded')==='true';b.setAttribute('aria-expanded',!o);b.innerHTML=o?'Menu <span>+</span>':'Close <span>−</span>';n.classList.toggle('open')});document.querySelectorAll('nav a').forEach(a=>a.addEventListener('click',()=>{n.classList.remove('open');b.setAttribute('aria-expanded','false');b.innerHTML='Menu <span>+</span>'}))</script>
+</body>
+</html>
